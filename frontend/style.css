@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #1f2937;
+}
+
+.site-header {
+  padding: 2rem;
+  text-align: center;
+  background: #111827;
+  color: white;
+}
+
+.container {
+  width: min(900px, 92%);
+  margin: 2rem auto;
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+button {
+  padding: 0.7rem 1rem;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #2563eb;
+  color: white;
+}
+
+.result {
+  margin-top: 1rem;
+  font-weight: 600;
+}
